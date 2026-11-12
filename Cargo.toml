@@ -7,6 +7,7 @@ description = "A Cargo subcommand that checks which modules of a crate may refer
 repository = "https://github.com/AprilNEA/cargo-layers"
 keywords = ["cargo", "subcommand", "architecture", "layers", "modules"]
 categories = ["development-tools::cargo-plugins"]
+include = ["/src/**", "/tests/**", "/Cargo.toml", "/Cargo.lock", "/README.md", "/LICENSE*"]
 
 [lints.rust]
 unsafe_code = "forbid"

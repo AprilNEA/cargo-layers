@@ -4,18 +4,17 @@
 
 ## Usage
 
-The crate is not on crates.io. Install the command from this repository, then run it in a package or a workspace:
+Install the command, then run it in a package or a workspace:
 
 ```sh
-cargo install --locked --git https://github.com/AprilNEA/cargo-layers
+cargo install --locked cargo-layers
 cargo layers [--manifest-path <PATH>]
 ```
 
 A task runner can depend on the crate and call the same check as a library:
 
-```toml
-[dependencies]
-cargo-layers = { git = "https://github.com/AprilNEA/cargo-layers" }
+```sh
+cargo add cargo-layers
 ```
 
 ```rust,no_run
